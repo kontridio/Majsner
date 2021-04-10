@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/CSS.css">
     <title>Tbulky v HTML</title>
 </head>
+
 <body>
     <header>
         <h1>Tabulky v HTML</h1>
+        
     </header>
     <main>
-        <h2>Slavná osobnost: </h2>
+        <a href="fotogalerie.html"></a>
+        <h2>Slavná osobnost: Majsner</h2>
+        <p></p>
         <table border=1>
             <caption>Vizitka slavné osobnosti</caption>
             <thead>
                 <tr>
-                    <th>Portrét</th>
-                    <th colspan="2">Základní údaje</th>
-                    <th>Významné činy</th>
+                    <th>
+                        <p class="nadpis">Portrét</p>
+                    </th>
+                    <th colspan="2">
+                        <p class="nadpis">Základní údaje</p>
+                    </th>
+                    <th>
+                        <p class="nadpis">Významné činy</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3"><img src="img/" height="" alt="Slavná osobnost"></td>
-                    <td colspan="2">Jméno a přijímení</td>
-                    <td rowspan="4">Díla</td>
-                    <tr>
-                        <td>Narození</td>
-                        <td>Úmrtí</td>
-                    </tr>
+                    <td rowspan="3"><img
+                            src="https://static.wikia.nocookie.net/bezdomovci/images/d/d5/Majsneros.png/revision/latest?cb=20170417225454&path-prefix=cs"
+                            height="350" alt="Slavná osobnost"></td>
+                    <td colspan="2">
+                        <p>Miroslav Švanda</p>
+                    </td>
+                    <td rowspan="4">
+                        <p>Krádež v Egyptě</p>
+                    </td>
+                <tr>
+                    <td>
+                        <p>Narození</p>
+                    </td>
+                    <td>
+                        <p>13. června 2020</p>
+                    </td>
+                </tr>
                 </tr>
                 <tr>
-                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                    <td rowspan="2" colspan="2">
+                        <p class="charakter">Majsner je nejznámější postava pardubické realityshow o bezdomovcích.
+                            Vyznačuje zejména svou
+                            násilnou povahou a křivým nosem</p>.
+                    </td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td>
+                        <p class="popisek">Confused Bezodomvec</p>
+                    </td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4">Odkaz na wikipedii</td>
+                    <td colspan="4"><a href="https://bezdomovci.fandom.com/cs/wiki/Majsner">Odkaz na wikipedii</a></td>
                 </tr>
             </tfoot>
         </table>
+        <h2>Značky a atributy tabulky</h2>
+        <dl>
+            <dt>colspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+        </dl>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
