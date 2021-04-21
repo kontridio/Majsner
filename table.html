@@ -6,18 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/CSS.css">
-    <title>Tbulky v HTML</title>
+    <title>Majsner</title>
 </head>
 
 <body>
     <header>
-        <h1>Tabulky v HTML</h1>
-        
+        <h1>Majsner</h1>
     </header>
     <main>
-        <a href="fotogalerie.html"></a>
-        <h2>Slavná osobnost: Majsner</h2>
-        <p></p>
+
+        <div class="menu">
+
+            <div class="a0">
+                <a href="fotogalerie.html">Fotogalerie</a>
+            </div>
+            <div class="a1">
+                <a href="multimedeia.html">Multimedia</a>
+            </div>
+
+        </div>
+
         <table border=1>
             <caption>Vizitka slavné osobnosti</caption>
             <thead>
@@ -39,49 +47,85 @@
                             src="https://static.wikia.nocookie.net/bezdomovci/images/d/d5/Majsneros.png/revision/latest?cb=20170417225454&path-prefix=cs"
                             height="350" alt="Slavná osobnost"></td>
                     <td colspan="2">
-                        <p>Miroslav Švanda</p>
+                        <p>Jméno: Miroslav Švanda</p>
                     </td>
-                    <td rowspan="4">
+                    <td rowspan="4" colspan="3">
                         <p>Krádež v Egyptě</p>
                     </td>
                 <tr>
                     <td>
-                        <p>Narození</p>
+                        <p>Narození je neznámé :(</p>
                     </td>
                     <td>
-                        <p>13. června 2020</p>
+                        <p>Úmrtí: 13. června 2020</p>
                     </td>
                 </tr>
                 </tr>
                 <tr>
                     <td rowspan="2" colspan="2">
                         <p class="charakter">Majsner je nejznámější postava pardubické realityshow o bezdomovcích.
-                            Vyznačuje zejména svou
-                            násilnou povahou a křivým nosem</p>.
+                            Vyznačuje se zejména svou násilnou povahou a křivým nosem. Tento můž procestoval spoustu
+                            míst jak v zahraniční tak i v Čechách.
+                            Jeho nejoblíbenější pochoutkou je Rum, kterého za celý život vypil více než vody.
+                        </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p class="popisek">Confused Bezodomvec</p>
+                        <p class="popisek">Confused Bezdomvec</p>
                     </td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4"><a href="https://bezdomovci.fandom.com/cs/wiki/Majsner">Odkaz na wikipedii</a></td>
+                    <div class="odkaz">
+                        <td colspan="4"><a href="https://bezdomovci.fandom.com/cs/wiki/Majsner" target="_blank">
+                                <p>Odkaz na wikipedii</p>
+                            </a>
+                        </td>
+                    </div>
                 </tr>
             </tfoot>
         </table>
-        <h2>Značky a atributy tabulky</h2>
-        <dl>
-            <dt>colspan</dt>
-            <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
-            <dt>rowspan</dt>
-            <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
-        </dl>
+        <br>
+        <hr>
+        <br>
+        <div class="doplnek">
+
+
+            <h2>Značky a atributy tabulky:</h2>
+            <dl>
+                <dt> &lt;table&gt; </dt>
+                <dd>Značka označující celou tabulku.</dd>
+                <br>
+                <dt>&lt;thead&gt;</dt>
+                <dd>Značka označující záhlaví tabulky.</dd>
+                <br>
+                <dt>&lt;tr&gt;</dt>
+                <dd>Značka označující řádek tabulky.</dd>
+                <br>
+                <dt>&lt;td&gt;</dt>
+                <dd>Značka označující data tabulky.</dd>
+                <br>
+                <dt>&lt;th&gt;</dt>
+                <dd>Značka označující záhlaví tabulky.</dd>
+                <br>
+                <dt>&lt;caption&gt;</dt>
+                <dd>Značka označující popisek tabulky. </dd>
+                <br>
+                <dt>colspan</dt>
+                <dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+                <br>
+                <dt>rowspan</dt>
+                <dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+            </dl>
+
+        </div>
     </main>
     <footer>
-
+        <hr>
+        <p>©Tomáš Liška IT1 2021 </p>
+        <br>
     </footer>
 </body>
 
